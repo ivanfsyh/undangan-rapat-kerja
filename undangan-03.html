@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="dist/css/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="vendor/aos-master/dist/aos.css">
+
+    <script src="dist/js/download.js"></script>
+</head>
+
+<body class="bg-[#e4e4e4]">
+
+    <main class="flex flex-col justify-between lg:flex-row">
+        <div id="side" class="hidden shadow-xl lg:block lg:grow lg:bg-[url('../img/background.jpg')] lg:bg-contain lg:bg-no-repeat lg:bg-fixed ">
+        </div>
+        <div id="content" class="w-full lg:w-1/3">
+            <nav id="navbar" class="hidden bg-transparent fixed top-0 shadow-violet-400/30 w-full p-1 z-50 transition-all duration-300 lg:w-1/3">
+                <div class="container mx-auto flex justify-between items-center">
+                    <!-- Logo -->
+                    <div class="text-violet-800 text-xl font-bold">
+                        <img src="dist/img/logo.png" alt="logo" class="w-28">
+                    </div>
+
+                    <!-- Hamburger Menu (for mobile) -->
+                    <div>
+                        <button id="menu-btn" class="text-violet-800 focus:outline-none">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h16m-7 6h7"
+                        />
+                      </svg>
+                    </button>
+                    </div>
+                </div>
+
+                <div id="mobile-menu" class="hidden bg-[#e4e4e4] space-y-4 mt-4 p-3 shadow-md">
+                    <a href="#jumbotron" class="block text-violet-950 hover:text-pink-500">Home</a>
+                    <a href="#introduction" class="block text-violet-950 hover:text-pink-500">Pendahuluan</a>
+                    <a href="#rundown" class="block text-violet-950 hover:text-pink-500">Rundown Acara</a>
+                    <a href="#attention" class="block text-violet-950 hover:text-pink-500">Perlengkapan Pribadi</a>
+
+                    <a href="#dresscode" class="block text-violet-950 hover:text-pink-500">Dress Neatly</a>
+                </div>
+            </nav>
+
+            <section id="jumbotron" class="w-full bg-[url('../img/background-undangan.jpg')] bg-center bg-cover h-screen pt-16" data-aos="fade-up" data-aos-duration="3000">
+                <div class="container ">
+                    <div class="flex flex-col text-center">
+                        <h3 id="undangan" class="text-violet-950 text-4xl mt-10">Undangan</h3>
+                        <h4 class="text-violet-950 text-xl mt-8">Rapat Kerja</h4>
+                        <h4 class="text-violet-950 text-xl font-semibold ">Divisi Riset dan Pengembangan</h4>
+                        <p class="text-pink-500 text-sm ">Hotel Aston Kuta, Bali | 12-15 September 2024</p>
+
+                        <img src="dist/icon/collaborating.svg " alt="team goals " class="my-8 w-1/2 mx-auto" />
+
+                        <span class="mt-8 ">Kepada Yth Bapak/Ibu</span>
+
+
+                        <!-- undangan 03 -->
+                        <h1 class="font-bold text-2xl ">Fadel</h1>
+                        <span class="text-sm text-pink-500 ">Head of Strategic Business Unit (SBU) Currency Solution</span>
+
+                        <!-- undangan 04 -->
+                        <!-- <h1 class="font-bold text-2xl ">Ade Permana</h1>
+                         <span class="text-sm text-pink-500 ">Head of Strategic Business Unit (SBU) High Security Solution</span> -->
+
+                    </div>
+
+                    <div class="w-full flex justify-center mt-10">
+                        <a href="#introduction" class="bg-violet-800 text-white py-3 px-4 rounded-full hover:bg-violet-500 ">
+                        Scroll ke bawah
+                    </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="introduction" class="bg-violet-200 py-36 " data-aos="fade-up" data-aos-duration="3000">
+                <div class="container ">
+
+                    <h2 class="text-violet-900 font-bold text-xl text-center ">Pendahuluan</h2>
+
+                    <!-- line -->
+                    <div class="relative inline-flex items-center justify-center w-full mt-8 ">
+                        <hr class="w-2/3 h-1 my-8 bg-violet-400 border-0 rounded " />
+                        <div class="absolute px-4 -translate-x-1/2 bg-violet-200 left-1/2 ">
+                            <svg class="w-4 h-4 text-gray-700 " aria-hidden="true " xmlns="http://www.w3.org/2000/svg " fill="currentColor " viewBox="0 0 18 14 ">
+                        <path
+                          d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z "
+                        />
+                      </svg>
+                        </div>
+                    </div>
+                    <!-- line -->
+
+                    <p class="text-lg mt-4 text-center">
+                        Kami dengan senang hati menyambut Anda dalam acara Rapat Kerja Riset dan Pengembangan 2024 di Bali. Undangan ini akan membantu Anda mempersiapkan perjalanan dan memastikan bahwa Anda memanfaatkan setiap momen dengan optimal. Harap simak informasi berikut
+                        tentang rundown acara dan dress code.
+                    </p>
+
+                    <!-- line -->
+                    <div class="relative inline-flex items-center justify-center w-full mt-8 ">
+                        <hr class="w-2/3 h-1 my-8 bg-violet-400 border-0 rounded " />
+                        <div class="absolute px-4 -translate-x-1/2 bg-violet-200 left-1/2 ">
+                            <svg class="w-4 h-4 text-gray-700 " aria-hidden="true " xmlns="http://www.w3.org/2000/svg " fill="currentColor " viewBox="0 0 18 14 ">
+                        <path
+                          d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z "
+                        />
+                      </svg>
+                        </div>
+                    </div>
+                    <!-- line -->
+                </div>
+            </section>
+
+            <section id="rundown" class="py-36" data-aos="fade-up" data-aos-duration="3000">
+                <div class="container ">
+                    <h2 class="text-violet-900 font-bold text-xl text-center ">Rundown Acara</h2>
+
+
+                    <div class="w-full flex flex-col mt-10 justify-center ">
+
+                        <button class="bg-pink-500 text-white py-3 mx-auto w-1/2 rounded-full hover:bg-pink-400 text-center" onclick="handleDownload()">
+                            Download Rundown Acara
+                        </button>
+                    </div>
+                    <div class="flex flex-col my-4 ">
+                        <h3 class="text-pink-600 mb-2 font-bold ">
+                            Hari ke-1 | <span class="font-normal ">Kamis, 12 September 2024</span>
+                        </h3>
+                        <div class="w-full border rounded-lg p-2 shadow-lg shadow-pink-500/20 ">
+                            <table class="w-full border-separate border-spacing-2 border border-violet-400 text-base ">
+                                <thead>
+                                    <tr>
+                                        <th class="border border-violet-400 " width="100 ">Waktu</th>
+                                        <th class="border border-violet-400 ">Agenda</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                    <tr>
+                                        <td class="border border-violet-400 ">12:00 - 14:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Perjalanan menuju Bandara Halim Perdana Kusuma
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">15:30 - 18:35</td>
+                                        <td class="border border-violet-400 ">
+                                            Perjalanan HLP-DPS Kloter 1
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">15:50 - 18:40</td>
+                                        <td class="border border-violet-400 ">
+                                            Perjalanan HLP-DPS Kloter 2
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">19:00 - 20:30</td>
+                                        <td class="border border-violet-400 ">
+                                            Makan malam di Nasi Tempong Indra
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">20:30 - 21:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Perjalanan ke Hotel dan Chcekin
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">21:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Istirahat
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col my-4 mt-14">
+                        <h3 class="text-pink-600 mb-2 font-bold ">
+                            Hari ke-2 | <span class="font-normal ">Jumat, 13 September 2024</span>
+                        </h3>
+                        <div class="w-full border rounded-lg p-2 shadow-lg shadow-pink-500/20 ">
+                            <table class="w-full border-separate border-spacing-2 border border-violet-400 text-base ">
+                                <thead>
+                                    <tr>
+                                        <th class="border border-violet-400 " width="100 ">Waktu</th>
+                                        <th class="border border-violet-400 ">Agenda</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                    <tr>
+                                        <td class="border border-violet-400 ">06:30 - 08:30</td>
+                                        <td class="border border-violet-400 ">
+                                            Sarapan di Hotel
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">08:30 - 10:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Persiapan Raker
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">10:00 - 11:45</td>
+                                        <td class="border border-violet-400 ">
+                                            Rapat Kerja Divisi Riset dan Pengembangan
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">11:45 - 13:30</td>
+                                        <td class="border border-violet-400 ">
+                                            ISHOMA
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">13:30 - 15:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Rapat Kerja Divisi Riset dan Pengembangan
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">15:00 - 16:30</td>
+                                        <td class="border border-violet-400 ">
+                                            Perjalanan Pura Uluwatu
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">16:30 - 17:30</td>
+                                        <td class="border border-violet-400 ">
+                                            Wisata Pura Uluwatu
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">17:30 - 19:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Pertunjukan Tari Kecak Uluwatu
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">19:00 - 21:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Makan Malam di Jimbaran
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">21:00 - 22:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Perjalanan kembali ke Hotel
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">22:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Istirahat
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col my-4 mt-14">
+                        <h3 class="text-pink-600 mb-2 font-bold ">
+                            Hari ke-3 | <span class="font-normal ">Sabtu, 14 September 2024</span>
+                        </h3>
+                        <div class="w-full border rounded-lg p-2 shadow-lg shadow-pink-500/20 ">
+                            <table class="w-full border-separate border-spacing-2 border border-violet-400 text-base ">
+                                <thead>
+                                    <tr>
+                                        <th class="border border-violet-400 " width="100 ">Waktu</th>
+                                        <th class="border border-violet-400 ">Agenda</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                    <tr>
+                                        <td class="border border-violet-400 ">06:30 - 08:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Sarapan di Hotel
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">08:00 - 08:15</td>
+                                        <td class="border border-violet-400 ">
+                                            Persiapan dan Penjemputan di Hotel
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">08:15 - 10:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Wisata VW Menuju Desa Panglipuran
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">10:00 - 11:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Mengunjungi Sentea UMKM (Pabrik Pie Susu/Agrowisata Kopi Luwak)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">11:00 - 12:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Berwisata di Desa Panglipuran
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">12:00 - 14:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Makan siang Grand Puncak Sari, Kintamani
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">14:00 - 16:30</td>
+                                        <td class="border border-violet-400 ">
+                                            Perjalanan ke Hotel
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">16:30 - 19:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Istirahat
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">19:00 - 22:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Gala Dinner dan Pentas Seni
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">22:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Istirahat
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col my-4 mt-14">
+                        <h3 class="text-pink-600 mb-2 font-bold ">
+                            Hari ke-4 | <span class="font-normal ">Minggu, 15 September 2024</span>
+                        </h3>
+                        <div class="w-full border rounded-lg p-2 shadow-lg shadow-pink-500/20 ">
+                            <table class="w-full border-separate border-spacing-2 border border-violet-400 text-base ">
+                                <thead>
+                                    <tr>
+                                        <th class="border border-violet-400 " width="100 ">Waktu</th>
+                                        <th class="border border-violet-400 ">Agenda</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                    <tr>
+                                        <td class="border border-violet-400 ">06:30 - 08:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Sarapan di Hotel
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">08:00 - 10:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Persiapan Checkout Hotel
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">10:00 - 10:30</td>
+                                        <td class="border border-violet-400 ">
+                                            Perjalanan ke Krisna
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">10:30 - 12:30</td>
+                                        <td class="border border-violet-400 ">
+                                            Belanja Oleh-oleh di Krisna
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">12:30 - 13:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Perjalanan ke Jogger
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">13:00 - 15:00</td>
+                                        <td class="border border-violet-400 ">
+                                            Belanja Oleh-oleh di Jogger
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">15:00 - 15:30</td>
+                                        <td class="border border-violet-400 ">
+                                            Perjalanan ke Bandara
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">16:25 - 17:20</td>
+                                        <td class="border border-violet-400 ">
+                                            Kepulangan DPS-HLP Kloter 1
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-violet-400 ">16:50 - 17:45</td>
+                                        <td class="border border-violet-400 ">
+                                            Kepulangan DPS-HLP Kloter 2
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- line -->
+                    <div class="relative inline-flex items-center justify-center w-full ">
+                        <hr class="w-2/3 h-1 my-8 bg-violet-400 border-0 rounded " />
+                        <div class="absolute px-4 -translate-x-1/2 bg-[#e4e4e4] left-1/2 ">
+                            <svg class="w-4 h-4 text-gray-700 " aria-hidden="true " xmlns="http://www.w3.org/2000/svg " fill="currentColor " viewBox="0 0 18 14 ">
+                        <path
+                          d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z "
+                        />
+                      </svg>
+                        </div>
+                    </div>
+                    <!-- line -->
+                </div>
+            </section>
+
+            <section id="attention" class="py-36 bg-violet-200 " data-aos="fade-up" data-aos-duration="3000">
+                <div class="container ">
+                    <h2 class="text-violet-900 font-bold text-xl text-center mb-4 ">
+                        Perlengkapan Pribadi
+                    </h2>
+
+                    <p class="text-base mb-3 text-center ">
+                        Pastikan anda membawa barang pribadi yang dibutuhkan selama di Bali.
+                    </p>
+                    <div class="w-full rounded-lg shadow-md bg-violet-400 shadow-violet-600/40 p-2 mb-4">
+                        <ol class="p-6 mt-2 space-y-1 list-decimal list-outside text-white ">
+                            <li>Pakaian untuk 4 hari</li>
+                            <li>Obat-obatan pribadi</li>
+                            <li>Kaos Raker yang telah dibagikan</li>
+                            <li>Kacamata</li>
+                            <li>Topi</li>
+                            <li>Sandal</li>
+                            <li>Sunscreen (pelindung kulit dari sinar matahari)</li>
+                            <li>Powerbank max 10.000 mah tidak dimasukkan ke dalam bagasi</li>
+                            <li>Charger</li>
+                            <li>Earphone (apabila dibutuhkan)</li>
+                            <li>Perlengkapan ibadah</li>
+                        </ol>
+                    </div>
+                    <div class="w-full rounded-lg bg-pink-400 shadow-md shadow-pink-500/40 p-6 mb-4">
+                        <p class="text-base text-center text-white ">
+                            Berat maksimal bagasi adalah 15kg. Mohon disesuaikan dengan barang bawaan anda. Jika anda memiliki kebutuhan lainnya, mohon untuk dicek kembali apakah sudah ada dalam tas anda.
+                        </p>
+                    </div>
+
+                    <!-- line -->
+                    <div class="relative inline-flex items-center justify-center w-full ">
+                        <hr class="w-2/3 h-1 my-8 bg-violet-400 border-0 rounded " />
+                        <div class="absolute px-4 -translate-x-1/2 bg-violet-200 left-1/2 ">
+                            <svg class="w-4 h-4 text-gray-700 " aria-hidden="true " xmlns="http://www.w3.org/2000/svg " fill="currentColor " viewBox="0 0 18 14 ">
+                        <path
+                          d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z "
+                        />
+                      </svg>
+                        </div>
+                    </div>
+                    <!-- line -->
+                </div>
+            </section>
+
+            <section id="dresscode" class="py-36 " data-aos="fade-up" data-aos-duration="3000">
+                <div class="container ">
+                    <h2 class="text-violet-900 font-bold text-xl text-center mb-4 ">Dress Neatly</h2>
+
+                    <div class="flex flex-col items-center">
+                        <div class="max-w-sm my-3 bg-white border border-violet-200 rounded-lg shadow-lg shadow-violet-500/20 ">
+                            <img class="rounded-t-lg w-3/4 mx-auto " src="dist/img/batik.png " alt=" " />
+                            <div class="p-5 ">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-violet-700 ">
+                                    Dress Code untuk Acara Rapat
+                                </h5>
+                                <p class="mb-3 font-normal text-gray-700 ">
+                                    <ul class="ps-5 mt-2 space-y-1 list-disc list-outside text-violet-700 ">
+                                        <li>Pakaian seragam rapat kerja</li>
+                                        <li>Rambut rapi</li>
+                                        <li>Celana panjang</li>
+                                        <li>Memakai Sepatu</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Waves Container-->
+            <div>
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path
+            id="gentle-wave"
+            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+          />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" class="fill-pink-400 opacity-70" />
+          <use xlink:href="#gentle-wave" x="48" y="3" class="fill-pink-400 opacity-50" />
+          <use xlink:href="#gentle-wave" x="48" y="5" class="fill-pink-400 opacity-30" />
+          <use xlink:href="#gentle-wave" x="48" y="7" class="fill-pink-400" />
+        </g>
+      </svg>
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <!-- External JS -->
+    <script src="dist/js/script.js "></script>
+    <script src="vendor/aos-master/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
